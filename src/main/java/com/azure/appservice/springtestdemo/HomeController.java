@@ -12,6 +12,6 @@ public class HomeController {
     public String home() {
         // Use the Guava library as an example of an external dependency.
         Joiner joiner = Joiner.on(" ").skipNulls(); 
-        return joiner.join("Hello", null, "from", "Spring", "Boot");
+        return joiner.join("Haiii", null, "from", "Spring", "Boot");
     }
 }
